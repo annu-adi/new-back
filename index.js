@@ -25,7 +25,7 @@ const connection=()=>{
 connection();
 
 app.get('/',(req, res)=>{
-res.json("Hello")
+res.json("Hello ji")
 })
 
 app.post('/register', (req, res) =>{
